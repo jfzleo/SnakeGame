@@ -63,10 +63,10 @@ void InitGameBox()
 	windowWidth = GetWindowWidth();
 	windowHeight = GetWindowHeight();    //获取窗口大小
 	MovePen(windowWidth / 2 - 2.5, 0);   
-	DrawLine(5, 0);
-	DrawLine(0, 5);
-	DrawLine(-5, 0);
-	DrawLine(0, -5);                   //绘制游戏窗口
+	DrawLine(boxWidth, 0);
+	DrawLine(0, boxHeight);
+	DrawLine(-boxWidth, 0);
+	DrawLine(0, -boxHeight);                   //绘制游戏窗口
 	gameBox_x1 = windowWidth / 2 - 2.5;
 	gameBox_x2 = windowWidth / 2 + 2.5;
 	gameBox_y1 = 0;
